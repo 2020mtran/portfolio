@@ -1,0 +1,10 @@
+.info-container {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    width: 94%;
+    height: 300px;
+    margin: 20px 10px 10px 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    z-index: 1;
+}
