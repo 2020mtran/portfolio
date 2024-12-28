@@ -1,0 +1,57 @@
+.roles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 20px 0px 20px;
+    width: 93.5%;
+}
+
+.roles > p {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.roles-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    row-gap: 5px;
+    flex-wrap: wrap;
+    line-height: 0.5;
+}
+
+.red-circle {
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.blue-circle {
+    width: 12px;
+    height: 12px;
+    background-color: rgb(31, 115, 241);
+    border-radius: 50%;
+}
+
+.yellow-circle {
+    width: 12px;
+    height: 12px;
+    background-color:  yellow;
+    border-radius: 50%;
+}
+
+.role1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 10px 0px 10px;
+    height: 50%;
+    border: thin solid rgba(255, 255, 255, 0.508);
+    border-radius: 5px;
+}
+
+.react-icon {
+    width: 14px;
+    height: 14px;
+}

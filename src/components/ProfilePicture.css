@@ -1,0 +1,16 @@
+.profile-picture {
+    display: flex;
+    width: 100%; 
+    height: 50px;
+    margin: 0px 0px 0px 20px;
+    z-index: 1;
+}
+
+.profile-picture > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: -90px;
+    border: 10px solid inherit;
+}

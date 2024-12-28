@@ -10,4 +10,3 @@ Currently, two official plugins are available:
 =======
 # portfolio
 This repository contains the source code for my personal portfolio website. Built to showcase my skills, projects, and experience, the website is designed with a focus on modern web development practices and user-friendly design. Technologies used include HTML, CSS, JavaScript, and React.
->>>>>>> f5c3fa9e8a015282fe149a2f88eb3351dd62d244

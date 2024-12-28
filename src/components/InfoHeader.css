@@ -1,0 +1,29 @@
+.info-header {
+    display: flex;
+    margin: 15px 20px 0px 15px;
+    height: 35px;
+    width: 95%;
+    gap: 30px;
+    /* border-bottom-color: rgba(255, 255, 255, 0.508); */
+    border-bottom: thin solid rgba(255, 255, 255, 0.508);
+}
+
+button {
+    background-color: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    font-size: 14px;
+    border-bottom: transparent;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+button:hover {
+    border-bottom: thin solid rgba(255, 255, 255, 0.9);
+    /* transform: scale(1.1); */
+}
+
+.aboutme-button {
+    border-bottom: thin solid rgba(255, 255, 255, 1);
+}

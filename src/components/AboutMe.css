@@ -1,0 +1,11 @@
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 0.2;
+    margin: 10px 0px 0px 20px;
+}
+
+p {
+    font-size: 14px;
+}
