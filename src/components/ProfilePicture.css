@@ -3,17 +3,18 @@
     width: 100%; 
     height: 50px;
     margin: 0px 0px 0px 20px;
-    z-index: 1;
+    /* z-index: -1; */
 }
 
 .profile-picture-background {
     display: flex;
-    background-color: hsla(0, 0%, 0%, 0.75);
-    width: 145px;
-    height: 145px;
+    /* background-color: hsla(0, 0%, 0%, 0.75); */
+    width: 146px;
+    height: 146px;
     border-radius: 50%;
     position: relative;
-    top: -80px;
+    top: -75px;
+    left: 8px;
     align-items: center;
     justify-content: center;
 }
@@ -23,5 +24,5 @@
     height: 135px;
     border-radius: 50%;
     position: relative;
-    border: 5px solid #1d3d6480;
+    /* border: 13px solid hsla(0, 0%, 0%, 0.071); */
 }

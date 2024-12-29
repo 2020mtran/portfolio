@@ -10,6 +10,7 @@ import AboutMe from './components/AboutMe.jsx'
 import Roles from './components/Roles.jsx'
 import ProfilePicture from './components/ProfilePicture.jsx'
 import SubMainContainer from './components/SubMainContainer.jsx'
+import TestSVG from './components/TestSVG.jsx'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           </InfoContainer>
         </SubMainContainer>
       </MainContainer>
+      {/* <TestSVG></TestSVG> */}
     </Background>
   )
 }
