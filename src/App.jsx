@@ -9,6 +9,7 @@ import InfoHeader from './components/InfoHeader.jsx'
 import AboutMe from './components/AboutMe.jsx'
 import Roles from './components/Roles.jsx'
 import ProfilePicture from './components/ProfilePicture.jsx'
+import SubMainContainer from './components/SubMainContainer.jsx'
 
 function App() {
 
@@ -16,13 +17,15 @@ function App() {
     <Background>
       <MainContainer>
         <ProfileBanner></ProfileBanner>
-        <ProfilePicture></ProfilePicture>
-        <Header></Header>
-        <InfoContainer>
-          <InfoHeader></InfoHeader>
-          <AboutMe></AboutMe>
-          <Roles></Roles>
-        </InfoContainer>
+        <SubMainContainer>
+          <ProfilePicture></ProfilePicture>
+          <Header></Header>
+          <InfoContainer>
+            <InfoHeader></InfoHeader>
+            <AboutMe></AboutMe>
+            <Roles></Roles>
+          </InfoContainer>
+        </SubMainContainer>
       </MainContainer>
     </Background>
   )

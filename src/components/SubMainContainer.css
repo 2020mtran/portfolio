@@ -1,0 +1,12 @@
+.sub-main-container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.75);
+    background-image: linear-gradient(to bottom, #1d3d6480, #d4c6aa85);
+    width: 42rem;
+    margin: 0 auto;
+    height: 600px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+}

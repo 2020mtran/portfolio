@@ -6,11 +6,22 @@
     z-index: 1;
 }
 
-.profile-picture > img {
-    width: 150px;
-    height: 150px;
+.profile-picture-background {
+    display: flex;
+    background-color: hsla(0, 0%, 0%, 0.75);
+    width: 145px;
+    height: 145px;
     border-radius: 50%;
     position: relative;
-    top: -90px;
-    border: 10px solid inherit;
+    top: -80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-picture-background > img {
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid #1d3d6480;
 }
