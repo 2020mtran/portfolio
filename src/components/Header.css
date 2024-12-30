@@ -1,9 +1,10 @@
 .name {
     display: flex;
-    margin: 10px 0px 0px 20px;
+    margin: 25px 0px 0px 20px;
     font-size: 30px;
     position: relative;
     z-index: 1;
+    font-weight: bold;
 }
 
 .subname {

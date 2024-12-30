@@ -5,7 +5,9 @@ import "./ProfilePicture.css";
 const ProfilePicture = () => {
     return (
         <div className="profile-picture">
-            <img src={ProfileImage} alt="Profile Picture"></img>
+            <div className="profile-picture-background">
+                <img src={ProfileImage} alt="Profile Picture"></img>
+            </div>
         </div>
     )
 }
