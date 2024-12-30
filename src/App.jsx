@@ -12,6 +12,7 @@ import ProfilePicture from './components/ProfilePicture.jsx'
 import SubMainContainer from './components/SubMainContainer.jsx'
 import InfoSubContainer from './components/InfoSubContainer.jsx'
 import Education from './components/Education.jsx'
+import Connections from './components/Connections.jsx'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
               <AboutMe></AboutMe>
               <Roles></Roles>
               <Education></Education>
+              <Connections></Connections>
             </InfoSubContainer>
           </InfoContainer>
         </SubMainContainer>
