@@ -1,11 +1,11 @@
 import React from 'react';
 import './AboutMe.css';
 
-const AboutMe = ({ children }) => {
+const AboutMe = () => {
     return (
         <div className="aboutme">
-            <p>aspiring web-developer, making opportunities a reality!</p>
-            <p>open to learning new skills!</p>
+            <p>Aspiring web-developer, making opportunities a reality!</p>
+            <p>Open to learning new skills!</p>
         </div>
     );
 };

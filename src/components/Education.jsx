@@ -1,7 +1,7 @@
 import React from 'react';
 import './Education.css';
 
-const Education = ({ children }) => {
+const Education = () => {
     return (
         <div className="education">
             <p className="education-title">Education</p>

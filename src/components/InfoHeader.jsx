@@ -1,7 +1,7 @@
 import React from 'react';
 import './InfoHeader.css';
 
-const InfoHeader = ({ children }) => {
+const InfoHeader = () => {
     return (
         <div className="info-header"> 
             <button className="aboutme-button">About Me</button>
