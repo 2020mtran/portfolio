@@ -11,6 +11,7 @@ import Roles from './components/Roles.jsx'
 import ProfilePicture from './components/ProfilePicture.jsx'
 import SubMainContainer from './components/SubMainContainer.jsx'
 import TestSVG from './components/TestSVG.jsx'
+import InfoSubContainer from './components/InfoSubContainer.jsx'
 
 function App() {
 
@@ -23,12 +24,13 @@ function App() {
           <Header></Header>
           <InfoContainer>
             <InfoHeader></InfoHeader>
-            <AboutMe></AboutMe>
-            <Roles></Roles>
+            <InfoSubContainer>
+              <AboutMe></AboutMe>
+              <Roles></Roles>
+            </InfoSubContainer>
           </InfoContainer>
         </SubMainContainer>
       </MainContainer>
-      {/* <TestSVG></TestSVG> */}
     </Background>
   )
 }
