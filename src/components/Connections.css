@@ -8,6 +8,8 @@
 
 .connections-title {
     color: rgba(255, 255, 255, 0.75);
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .connections-list {
