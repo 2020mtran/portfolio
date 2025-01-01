@@ -25,6 +25,10 @@ button:hover {
     /* transform: scale(1.1); */
 }
 
-.aboutme-button {
+.aboutme-button-on {
+    border-bottom: thin solid rgba(255, 255, 255, 1);
+}
+
+.activity-button-on {
     border-bottom: thin solid rgba(255, 255, 255, 1);
 }
