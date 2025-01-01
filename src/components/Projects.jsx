@@ -3,6 +3,7 @@ import './Projects.css';
 import OutriderAmber from "../assets/OutriderAmber.jpg";
 import BlitzBot from "../assets/BlitzBotIcon.jpg";
 import MentalMe from "../assets/MentalMeIcon.jpg";
+import CombinationProjects from "../assets/CombinationProjects.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
 import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
@@ -49,6 +50,23 @@ const Projects = ({ children }) => {
                 </div>
             </div>
             <div className="project-individual">
+                <img src={CombinationProjects} alt="Icon of a combination of my web development work"></img>
+                <div className="project-information">
+                    <p className="project-title">Front-End Development Projects</p>
+                    <div className="roles-list">
+                    <div className="role1">
+                        <FontAwesomeIcon icon={faCss3Alt} style={{color: "#086fac",}} className="react-icon"/>
+                        <p>CSS</p>
+                    </div>
+                    <div className="role1">
+                        <FontAwesomeIcon icon={faHtml5} style={{color: "#FFD43B",}} className="react-icon"/>
+                        <p>HTML</p>
+                    </div>
+                    </div>
+                    <p className="project-description">Developed a modern landing page, sign-up page, and admin dashboard for a company’s use.</p>
+                </div>
+            </div>
+            <div className="project-individual">
                 <img src={OutriderAmber} alt="Icon of my bot, Outrider Amber"></img>
                 <div className="project-information">
                     <p className="project-title">Outrider Amber</p>
@@ -91,6 +109,7 @@ const Projects = ({ children }) => {
                 </div>
             </div>
         </div>
+        
     );
 };
 
