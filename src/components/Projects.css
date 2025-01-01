@@ -25,6 +25,10 @@
     width: 99%;
 }
 
+.project-individual:hover {
+    transform: scale(1.01);
+}
+
 .project-individual > img {
     width: 150px;
     height: 150px;
@@ -42,7 +46,6 @@
 .project-title {
     font-size: 25px;
     font-weight: bold;
-    /* margin-block-start: 0.5em; */
     margin-block-end: 0.8em;
 }
 

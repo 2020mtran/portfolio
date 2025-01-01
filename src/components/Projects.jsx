@@ -11,11 +11,11 @@ import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
 import expoGoIcon from '../assets/expo-go-app.svg';
 
-const Projects = ({ children }) => {
+const Projects = () => {
     return (
         <div className="projects">
             <p>Projects</p>
-            <div className="project-individual">
+            <button className="project-individual">
                 <img src={MentalMe} alt="Icon of my mobile app, MentalMe"></img>
                 <div className="project-information">
                     <p className="project-title">MentalMe</p>
@@ -48,8 +48,8 @@ const Projects = ({ children }) => {
                     <p className="project-description">MentalMe is a mental health mobile app that reminds users to care for their mental health. Users can journal, 
                     chat with the app’s mascot, and claim daily/weekly login rewards.</p>
                 </div>
-            </div>
-            <div className="project-individual">
+            </button>
+            <button className="project-individual">
                 <img src={CombinationProjects} alt="Icon of a combination of my web development work"></img>
                 <div className="project-information">
                     <p className="project-title">Front-End Development Projects</p>
@@ -65,8 +65,8 @@ const Projects = ({ children }) => {
                     </div>
                     <p className="project-description">Developed a modern landing page, sign-up page, and admin dashboard for a company’s use.</p>
                 </div>
-            </div>
-            <div className="project-individual">
+            </button>
+            <button className="project-individual">
                 <img src={OutriderAmber} alt="Icon of my bot, Outrider Amber"></img>
                 <div className="project-information">
                     <p className="project-title">Outrider Amber</p>
@@ -86,8 +86,8 @@ const Projects = ({ children }) => {
                     </div>
                     <p className="project-description">Outrider Amber is a Discord bot allow users to obtain roles within Discord servers and ping them when specific content was detected such as new content releases from another Discord bot.</p>
                 </div>
-            </div>
-            <div className="project-individual">
+            </button>
+            <button className="project-individual">
                 <img src={BlitzBot} alt="Icon of my bot, BlitzBot"></img>
                 <div className="project-information">
                     <p className="project-title">BlitzBot</p>
@@ -107,7 +107,7 @@ const Projects = ({ children }) => {
                     </div>
                     <p className="project-description">BlitzBot is a Discord bot aimed to allow users to make personal League of Legends ranking leaderboards amongst their friends.</p>
                 </div>
-            </div>
+            </button>
         </div>
         
     );
