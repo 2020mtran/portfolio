@@ -1,0 +1,29 @@
+.project-page-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-info-right-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.left-info {
+    display: flex;
+    align-items: flex-start;
+}
+
+.right-image {
+    width: 390px;
+    height: 260px;
+}
+
+.right-image > img {
+    border-radius: 10px;
+}
+
+.right-image > p {
+    font-size: 10px;
+    line-height: 0px;
+}

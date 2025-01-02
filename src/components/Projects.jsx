@@ -10,12 +10,13 @@ import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
 import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
 import expoGoIcon from '../assets/expo-go-app.svg';
+import { Link } from 'react-router-dom';
 
 const Projects = () => {
     return (
         <div className="projects">
             <p>Projects</p>
-            <button className="project-individual">
+            <Link to="./pages/ProjectMentalMe" className="project-individual">
                 <img src={MentalMe} alt="Icon of my mobile app, MentalMe"></img>
                 <div className="project-information">
                     <p className="project-title">MentalMe</p>
@@ -48,7 +49,7 @@ const Projects = () => {
                     <p className="project-description">MentalMe is a mental health mobile app that reminds users to care for their mental health. Users can journal, 
                     chat with the app’s mascot, and claim daily/weekly login rewards.</p>
                 </div>
-            </button>
+            </Link>
             <button className="project-individual">
                 <img src={CombinationProjects} alt="Icon of a combination of my web development work"></img>
                 <div className="project-information">
