@@ -53,7 +53,7 @@ const Projects = () => {
             <button className="project-individual">
                 <img src={CombinationProjects} alt="Icon of a combination of my web development work"></img>
                 <div className="project-information">
-                    <p className="project-title">Front-End Development Projects</p>
+                    <p className="project-title">Front-End Dev Projects</p>
                     <div className="roles-list">
                     <div className="role1">
                         <FontAwesomeIcon icon={faCss3Alt} style={{color: "#086fac",}} className="react-icon"/>
