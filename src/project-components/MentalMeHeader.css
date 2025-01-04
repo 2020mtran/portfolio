@@ -42,7 +42,7 @@
     text-align: left;
 }
 
-.role1 {
+.project-page-header-role {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -52,6 +52,6 @@
     border-radius: 5px;
 }
 
-.role1 > p {
+.project-page-header-role > p {
     font-size: 16px;
 }

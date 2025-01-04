@@ -1,5 +1,5 @@
 import React from 'react';
-import "./ProjectPageHeader.css";
+import "./MentalMeHeader.css";
 import MentalMe from '../assets/MentalMeIcon.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
@@ -8,14 +8,14 @@ import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
 import expoGoIcon from '../assets/expo-go-app.svg';
 
-const ProjectPageHeader = ({ children }) => {
+const MentalMeHeader = () => {
     return (
         <div className="project-page-header">
             <img src={MentalMe} alt="Icon of my app, MentalMe" />
             <div className="project-page-header-info">
                 <p className='project-title'>MentalMe</p>
                 <div className="roles-list">
-                    <div className="role1">
+                    <div className="project-page-header-role">
                         <FontAwesomeIcon icon={faReact} style={{color: "#086fac",}} className="react-icon"/>
                         <p>React</p>
                     </div>
@@ -40,11 +40,9 @@ const ProjectPageHeader = ({ children }) => {
                         <p>Firebase</p>
                     </div>
                 </div>
-                {/* <p className="project-description">MentalMe is a mental health mobile app that reminds users to care for their mental health. Users can journal, 
-                    chat with the app’s mascot, and claim daily/weekly login rewards.</p> */}
             </div>
         </div>
     )
 }
 
-export default ProjectPageHeader;
+export default MentalMeHeader;

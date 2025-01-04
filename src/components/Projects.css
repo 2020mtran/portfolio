@@ -71,7 +71,7 @@
     line-height: 0;
 }
 
-.role1 {
+.project-role {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -81,6 +81,6 @@
     border-radius: 5px;
 }
 
-.role1 > p {
+.project-role > p {
     font-size: 12px;
 }

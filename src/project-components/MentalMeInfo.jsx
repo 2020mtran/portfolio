@@ -1,15 +1,15 @@
 import React from 'react';
-import "./ProjectPageInfo.css";
+import "./MentalMeInfo.css";
 import MentalMeFirstPreview from "../assets/MentalMeFirstPreview.png";
 import MentalMeSecondPreview from "../assets/MentalMeSecondPreview.png";
 import MentalMeThirdPreview from "../assets/MentalMeThirdPreview.png";
 
-const ProjectPageInfo = () => {
+const MentalMeInfo = () => {
     return (
         <div className="project-page-info">
             <div className='info-display'>
                 <div className='left-info'>
-                    <p className='info-subtitle'>Claim daily rewards! 📆</p>
+                    <p className='info-subtitle'>Claim Daily Rewards! 📆</p>
                     <p className='info-description'>• Upon logging in, users are prompted to claim their free daily login reward in the form of honey coins.<br />
                     • By writing a journal entry daily, users may claim another reward.<br />
                     • Consecutively logging in for a week straight grants a larger reward.
@@ -51,4 +51,4 @@ const ProjectPageInfo = () => {
     )
 }
 
-export default ProjectPageInfo;
+export default MentalMeInfo;

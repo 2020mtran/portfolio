@@ -39,7 +39,8 @@
     font-size: 14px;
     text-align: left;
     padding-right: 15px;
-    line-height: 1.4em; 
+    line-height: 1.4em;
+    margin-block-start: 0em; 
 }
 
 .info-description-right {

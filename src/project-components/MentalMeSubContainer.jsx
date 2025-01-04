@@ -1,10 +1,10 @@
 import React from 'react';
-import "./ProjectPageSubContainer.css";
+import "./MentalMeSubContainer.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleLeft} from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-const ProjectPageSubContainer = ({ children }) => {
+const MentalMeSubContainer = ({ children }) => {
     return (
         <div className="project-page-sub-container">
             <Link to="/" className='back-icon-container'>
@@ -15,4 +15,4 @@ const ProjectPageSubContainer = ({ children }) => {
     )
 }
 
-export default ProjectPageSubContainer;
+export default MentalMeSubContainer;

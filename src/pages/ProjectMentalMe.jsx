@@ -1,14 +1,14 @@
 import React from 'react';
-import ProjectPageSubContainer from '../project-components/ProjectPageSubContainer.jsx'
-import ProjectPageHeader from '../project-components/ProjectPageHeader.jsx'
-import ProjectPageInfo from '../project-components/ProjectPageInfo.jsx';
+import MentalMeSubContainer from '../project-components/MentalMeSubContainer.jsx'
+import MentalMeHeader from '../project-components/MentalMeHeader.jsx'
+import MentalMeInfo from '../project-components/MentalMeInfo.jsx';
 
 const ProjectMentalMe = () => (
   <>
-    <ProjectPageSubContainer>
-      <ProjectPageHeader></ProjectPageHeader>
-      <ProjectPageInfo></ProjectPageInfo>
-    </ProjectPageSubContainer>
+    <MentalMeSubContainer>
+      <MentalMeHeader></MentalMeHeader>
+      <MentalMeInfo></MentalMeInfo>
+    </MentalMeSubContainer>
   </>
 );
 
