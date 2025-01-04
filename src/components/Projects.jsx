@@ -67,7 +67,7 @@ const Projects = () => {
                     <p className="project-description">Developed a modern landing page, sign-up page, and admin dashboard for a company’s use.</p>
                 </div>
             </Link>
-            <button className="project-individual">
+            <Link to="./pages/ProjectOutriderAmber" className="project-individual">
                 <img src={OutriderAmber} alt="Icon of my bot, Outrider Amber"></img>
                 <div className="project-information">
                     <p className="project-title">Outrider Amber</p>
@@ -85,9 +85,9 @@ const Projects = () => {
                             <p>AWS Cloud Services</p>
                         </div>
                     </div>
-                    <p className="project-description">Outrider Amber is a Discord bot allow users to obtain roles within Discord servers and ping them when specific content was detected such as new content releases from another Discord bot.</p>
+                    <p className="project-description">Outrider Amber is a Discord bot that allow users to obtain roles and ping them when new content releases from another Discord bot/game.</p>
                 </div>
-            </button>
+            </Link>
             <button className="project-individual">
                 <img src={BlitzBot} alt="Icon of my bot, BlitzBot"></img>
                 <div className="project-information">

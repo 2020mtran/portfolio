@@ -12,8 +12,8 @@ import { Link } from 'react-router-dom';
 
 const FrontEndDevHeader = () => {
     return (
-        <div className="project-page-header">
-            <div className="project-page-header-info">
+        <div className="fed-project-page-header">
+            <div className="fed-project-page-header-info">
                 <p className='fed-project-title'>Front End <br />Development Projects</p>
                 <div className="roles-list">
                     <div className="project-page-header-role">
@@ -26,8 +26,8 @@ const FrontEndDevHeader = () => {
                     </div>
                 </div>
             </div>
-            <Link to="/" className='back-icon-container'>
-                <FontAwesomeIcon icon={faCircleLeft} className='back-icon'/>
+            <Link to="/" className='fed-back-icon-container'>
+                <FontAwesomeIcon icon={faCircleLeft} className='fed-back-icon'/>
             </Link>
         </div>
     )

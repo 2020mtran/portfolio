@@ -1,0 +1,81 @@
+.oa-info {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.oa-info-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+.left-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.right-info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.info-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    line-height: 1.25em;
+    padding-right: 10px;
+}
+
+.info-description {
+    font-size: 14px;
+    text-align: left;
+    padding-right: 15px;
+    line-height: 1.4em;
+    margin-block-start: 0em; 
+}
+
+.info-description-right {
+    font-size: 14px;
+    text-align: left;
+    padding-right: 0px;
+    margin-block-start: 0em;
+    line-height: 1.4em;
+    margin-bottom: 0px;
+}
+
+.right-image {
+    width: 390px;
+    height: 260px;
+}
+
+.right-image > img {
+    border-radius: 10px;
+}
+
+.right-image > p {
+    font-size: 10px;
+    line-height: 0px;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+  }
+
+:hover::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 0%, 0.5);
+}

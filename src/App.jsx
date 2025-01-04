@@ -5,6 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './components/Homepage.jsx'
 import ProjectMentalMe from './pages/ProjectMentalMe'
 import ProjectFrontEndDev from './pages/ProjectFrontEndDev.jsx';
+import ProjectOutriderAmber from './pages/ProjectOutriderAmber.jsx';
+
 
 function App() {
 
@@ -15,8 +17,8 @@ function App() {
             <Route path="/" element={<Homepage />} />
             <Route path="/pages/ProjectMentalMe" element={<ProjectMentalMe />} />
             <Route path="/pages/ProjectFrontEndDev" element={<ProjectFrontEndDev />} />
-            {/* <Route path="/ProjectOutriderAmber" element={<ProjectOutriderAmber />} />
-            <Route path="/ProjectBlitzBot" element={<ProjectBlitzBot />} /> */}
+            <Route path="/pages/ProjectOutriderAmber" element={<ProjectOutriderAmber />} />
+            {/* <Route path="/ProjectBlitzBot" element={<ProjectBlitzBot />} /> */}
           </Routes>
       </MainContainer>
     </Background>
