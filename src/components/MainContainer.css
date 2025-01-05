@@ -1,7 +1,7 @@
 .main-container {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 37.5rem;
     width: 42rem;
     padding: 5px;
     background-image: linear-gradient(to bottom, #1d3d64b7, #d4c6aac2);

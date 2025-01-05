@@ -17,13 +17,21 @@ button {
     border-bottom: transparent;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
+    padding: 7px;
 }
 
-button:hover {
+.aboutme-button-off:hover {
     border-bottom: thin solid rgba(255, 255, 255, 0.9);
-    /* transform: scale(1.1); */
 }
 
-.aboutme-button {
+.activity-button-off:hover {
+    border-bottom: thin solid rgba(255, 255, 255, 0.9);
+}
+
+.aboutme-button-on {
+    border-bottom: thin solid rgba(255, 255, 255, 1);
+}
+
+.activity-button-on {
     border-bottom: thin solid rgba(255, 255, 255, 1);
 }
