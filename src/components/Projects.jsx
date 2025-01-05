@@ -88,7 +88,7 @@ const Projects = () => {
                     <p className="project-description">Outrider Amber is a Discord bot that allow users to obtain roles and ping them when new content releases from another Discord bot/game.</p>
                 </div>
             </Link>
-            <button className="project-individual">
+            <Link to="./pages/ProjectBlitzBot" className="project-individual">
                 <img src={BlitzBot} alt="Icon of my bot, BlitzBot"></img>
                 <div className="project-information">
                     <p className="project-title">BlitzBot</p>
@@ -99,7 +99,7 @@ const Projects = () => {
                         </div>
                         <div className="project-role">
                             <FontAwesomeIcon icon={faDownload} style={{color: "#FFD43B",}} className="react-icon"/>
-                            <p>Discord API</p>
+                            <p>Discord & Riot Games API</p>
                         </div>
                         <div className="project-role">
                             <img src={mongodbIcon} alt="MongoDB Icon" className="react-icon" />
@@ -108,7 +108,7 @@ const Projects = () => {
                     </div>
                     <p className="project-description">BlitzBot is a Discord bot aimed to allow users to make personal League of Legends ranking leaderboards amongst their friends.</p>
                 </div>
-            </button>
+            </Link>
         </div>
         
     );
