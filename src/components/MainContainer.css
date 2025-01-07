@@ -7,3 +7,10 @@
     background-image: linear-gradient(to bottom, #1d3d64b7, #d4c6aac2);
     border-radius: 10px;
 }
+
+@media (min-width: 1720px) {
+    .main-container {
+        width: 43.8%;
+        height: 69.44%;
+    }
+}

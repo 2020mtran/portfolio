@@ -2,7 +2,7 @@ import React from 'react';
 import "./MentalMeHeader.css";
 import MentalMe from '../assets/MentalMeIcon.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs, faCss3Alt, faHtml5, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
 import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
@@ -10,10 +10,19 @@ import expoGoIcon from '../assets/expo-go-app.svg';
 
 const MentalMeHeader = () => {
     return (
-        <div className="project-page-header">
+        <div className="mm-project-page-header">
             <img src={MentalMe} alt="Icon of my app, MentalMe" />
-            <div className="project-page-header-info">
-                <p className='project-title'>MentalMe</p>
+            <div className="mm-project-page-header-info">
+                <p className='mm-project-title'>
+                    MentalMe
+                    <a
+                        href="https://github.com/pauleenaphan/MentalMe"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='mm-github-button'>
+                            <FontAwesomeIcon icon={faGithub} className='mm-github-icon'></FontAwesomeIcon>
+                    </a>
+                </p>
                 <div className="roles-list">
                     <div className="project-page-header-role">
                         <FontAwesomeIcon icon={faReact} style={{color: "#086fac",}} className="react-icon"/>

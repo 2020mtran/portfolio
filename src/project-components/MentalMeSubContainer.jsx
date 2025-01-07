@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const MentalMeSubContainer = ({ children }) => {
     return (
-        <div className="project-page-sub-container">
+        <div className="mm-project-page-sub-container">
             <Link to="/" className='back-icon-container'>
                 <FontAwesomeIcon icon={faCircleLeft} className='back-icon'/>
             </Link>

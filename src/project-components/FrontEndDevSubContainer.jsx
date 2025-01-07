@@ -3,7 +3,7 @@ import "./FrontEndDevSubContainer.css";
 
 const FrontEndDevSubContainer = ({ children }) => {
     return (
-        <div className="project-page-sub-container">
+        <div className="fed-project-page-sub-container">
             {children}
         </div>
     )
