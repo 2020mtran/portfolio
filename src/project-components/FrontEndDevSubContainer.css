@@ -1,4 +1,4 @@
-.project-page-sub-container {
+.fed-project-page-sub-container {
     display: flex;
     flex-direction: column;
     background-color: hsla(0, 0%, 0%, 0.5);
@@ -10,4 +10,11 @@
     border-bottom-left-radius: 10px;
     position: relative;
     z-index: 0;
+}
+
+@media (min-width: 1420px) {
+    .fed-project-page-sub-container {
+        width: 100%;
+        height: 100%;
+    }
 }

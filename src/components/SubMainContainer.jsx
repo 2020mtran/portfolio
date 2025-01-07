@@ -1,11 +1,10 @@
 import React from 'react';
 import './SubMainContainer.css';
-import Background from './Background';
 
 const SubMainContainer = ({ children }) => {
     return (
         <div className="sub-main-container">
-            <svg viewBox="0 0 672 600" className="svg" style={{ borderRadius: '10px' }}>
+            <svg viewBox="0 0 672 600" className="svg" style={{ borderRadius: '10px', width: "100%", height: "auto"}}>
                 <defs>
                     <linearGradient id="sharedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" style={{ stopColor: '#1d3d64', stopOpacity: 1 }} />
@@ -18,7 +17,7 @@ const SubMainContainer = ({ children }) => {
                 <path d="M 0 600 L 0 120 L 24 120 Q 24 43.5 102 38.5 Q 178 43.5 178 120 L 672 120 L 672 600 L 250 600"
                     fill="url(#sharedGradient)"
                 />
-                <foreignObject x="0" y="0" width="672" height="600">
+                <foreignObject x="0" y="0" width="100%" height="100%">
                     <div className="svg-children-container">
                         {children}
                     </div>

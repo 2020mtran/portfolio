@@ -2,18 +2,24 @@ import React from 'react';
 import "./BlitzBotHeader.css";
 import BlitzBot from '../assets/BlitzBotIcon.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
-import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
-import expoGoIcon from '../assets/expo-go-app.svg';
 
 const BlitzBotHeader = () => {
     return (
-        <div className="oa-project-page-header">
+        <div className="bb-project-page-header">
             <img src={BlitzBot} alt="Icon of my app, BlitzBot" />
-            <div className="oa-project-page-header-info">
-                <p className='oa-project-title'>BlitzBot</p>
+            <div className="bb-project-page-header-info">
+                <p className='bb-project-title'>BlitzBot
+                    <a
+                        href="https://github.com/2020mtran/blitz_bot"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='bb-github-button'>
+                            <FontAwesomeIcon icon={faGithub} className='bb-github-icon'></FontAwesomeIcon>
+                    </a>
+                </p>
                 <div className="roles-list">
                     <div className="project-role">
                         <FontAwesomeIcon icon={faPython} style={{color: "#086fac",}} className="react-icon"/>

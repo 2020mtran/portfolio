@@ -2,18 +2,24 @@ import React from 'react';
 import "./OutriderAmberHeader.css";
 import OutriderAmber from '../assets/OutriderAmber.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
-import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
-import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
-import expoGoIcon from '../assets/expo-go-app.svg';
+import { faGithub, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+
 
 const OutriderAmberHeader = () => {
     return (
         <div className="oa-project-page-header">
             <img src={OutriderAmber} alt="Icon of my app, OutriderAmber" />
             <div className="oa-project-page-header-info">
-                <p className='oa-project-title'>OutriderAmber</p>
+                <p className='oa-project-title'>OutriderAmber
+                    <a
+                        href="https://github.com/2020mtran/outrider-amber"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className='oa-github-button'>
+                            <FontAwesomeIcon icon={faGithub} className='oa-github-icon'></FontAwesomeIcon>
+                    </a>
+                </p>
                 <div className="roles-list">
                     <div className="project-role">
                         <FontAwesomeIcon icon={faPython} style={{color: "#086fac",}} className="react-icon"/>

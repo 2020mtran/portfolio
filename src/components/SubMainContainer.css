@@ -1,11 +1,9 @@
 .sub-main-container {
     display: flex;
     flex-direction: column;
-    /* background-color: hsla(0, 0%, 0%, 0.75); */
-    /* background-image: linear-gradient(to bottom, #1d3d6480, #d4c6aa85); */
     width: 42rem;
     margin: 0 auto;
-    height: 600px;
+    height: 37.5rem;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     position: relative;
@@ -17,15 +15,18 @@
     position: relative;
     z-index: -1;
     top: 120px;
-    /* background-color: hsla(0, 0%, 0%, 0.75); */
-    /* background-image: linear-gradient(to bottom, #1d3d6480, #d4c6aa85); */
 }
 
-/* SVG with fixed dimensions */
 .svg {
-    width: 42rem; /* Matches container width */
-    height: 600px; /* Matches container height */
     display: block;
     position: relative;
     z-index: 0;
+}
+
+@media (min-width: 1420px) {
+    .sub-main-container {
+        width: 100%;
+        height: auto;
+        top: -20%;
+    }
 }

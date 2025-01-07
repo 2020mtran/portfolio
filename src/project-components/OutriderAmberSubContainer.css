@@ -29,3 +29,10 @@
 .oa-back-icon-container:visited {
     color: inherit;
 }
+
+@media (min-width: 1420px) {
+    .oa-sub-container {
+        width: 100%;
+        height: 100%;
+    }
+}

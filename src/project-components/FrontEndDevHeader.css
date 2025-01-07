@@ -61,11 +61,13 @@
 
 .fed-back-icon-container {
     display: flex;
-    align-items: flex-end;
-    position: relative;
-    top: 60px;
-    left: 185px;
-    height: 1px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .fed-back-icon {

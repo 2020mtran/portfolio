@@ -9,7 +9,7 @@ const MentalMeInfo = () => {
         <div className="project-page-info">
             <div className='info-display'>
                 <div className='left-info'>
-                    <p className='info-subtitle'>Claim Daily Rewards! 📆</p>
+                    <p className='info-subtitle'>Claim Daily Rewards!📆</p>
                     <p className='info-description'>• Upon logging in, users are prompted to claim their free daily login reward in the form of honey coins.<br />
                     • By writing a journal entry daily, users may claim another reward.<br />
                     • Consecutively logging in for a week straight grants a larger reward.
@@ -26,7 +26,7 @@ const MentalMeInfo = () => {
                     <p>Journal Menu, Creating Journal, Progress Tracker</p>
                 </div>
                 <div className='right-info'>
-                    <p className='info-subtitle'>Journal 📝 <br /> & Track Progress! 📈</p>
+                    <p className='info-subtitle'>Journal & Track Progress!📝</p>
                     <p className='info-description-right'>• Users can create journal entries to write about their emotions.<br />
                     • Journal entries cannot be edited so users see their mental health development.<br />
                     • Weekly progress stats show what days of the current week the user has logged in for.<br />
@@ -36,7 +36,7 @@ const MentalMeInfo = () => {
             </div>
             <div className='info-display'>
                 <div className='left-info'>
-                    <p className='info-subtitle'>Chat with Moobie 🐻<br /> & Redeem Cosmetics!🪙</p>
+                    <p className='info-subtitle'>Chat with Moobie & Redeem Cosmetics!🐻</p>
                     <p className='info-description'>• Moobie the beaver-bear mascot can be interacted with to learn more about the app!<br />
                     • Buy cosmetics from the shop for Moobie using the daily/weekly rewards!<br />
                     • Moobie has different hats, shirts, and lower body wear to equip!
