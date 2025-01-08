@@ -26,3 +26,12 @@
     position: relative;
     /* border: 13px solid hsla(0, 0%, 0%, 0.071); */
 }
+
+@media (min-width: 1720px) and (max-width: 950) {
+    .profile-picture-background > img {
+        width: 135px;
+        height: 160.2px;
+        object-position: center;
+        top: 13px;
+    }
+}

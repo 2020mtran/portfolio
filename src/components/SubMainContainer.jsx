@@ -4,7 +4,7 @@ import './SubMainContainer.css';
 const SubMainContainer = ({ children }) => {
     return (
         <div className="sub-main-container">
-            <svg viewBox="0 0 672 600" className="svg" style={{ borderRadius: '10px', width: "100%", height: "auto"}}>
+            <svg viewBox="0 0 672 600" className="svg" preserveAspectRatio="none">
                 <defs>
                     <linearGradient id="sharedGradient" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" style={{ stopColor: '#1d3d64', stopOpacity: 1 }} />
