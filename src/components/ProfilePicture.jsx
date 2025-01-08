@@ -7,6 +7,7 @@ const ProfilePicture = () => {
         <div className="profile-picture">
             <div className="profile-picture-background">
                 <img src={ProfileImage} alt="Profile Picture"></img>
+                <span className='online-icon'></span>
             </div>
         </div>
     )

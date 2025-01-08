@@ -23,3 +23,15 @@
     border-radius: 50%;
     position: relative;
 }
+
+.online-icon {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 50px;
+    border: 0.5rem solid hsla(0, 0%, 0%, 0.75);
+}
