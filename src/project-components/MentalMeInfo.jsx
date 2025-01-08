@@ -21,7 +21,7 @@ const MentalMeInfo = () => {
                 </div>
             </div>
             <div className='info-display'>
-                <div className='right-image'>
+                <div className='left-image'>
                     <img src={MentalMeSecondPreview} alt="Next three screenshots of my app"/>
                     <p>Journal Menu, Creating Journal, Progress Tracker</p>
                 </div>

@@ -5,8 +5,8 @@ import BlitzBotSecondPreview from "../assets/BlitzBotSecondPreview.png";
 
 const BlitzBotInfo = () => {
     return (
-        <div className="oa-info">
-            <div className='oa-info-display'>
+        <div className="bb-info">
+            <div className='bb-info-display'>
                 <div className='left-info'>
                     <p className='info-subtitle'>Input your League data!</p>
                     <p className='info-description'>• Users can connect their in-game League of Legends data to the bot!<br />
@@ -14,13 +14,13 @@ const BlitzBotInfo = () => {
                     • The data is then stored in Firebase tied to the user's Discord ID.
                     </p>
                 </div>
-                <div className='right-image'>
+                <div className='bb-right-image'>
                     <img src={BlitzBotFirstPreview} alt="First three screenshots of my app"/>
                     <p>A user inputting their League of Legends player data.</p>
                 </div>
             </div>
             <div className='info-display'>
-                <div className='right-image'>
+                <div className='bb-right-image'>
                     <img src={BlitzBotSecondPreview} alt="Next screenshots of my app"/>
                     <p>Check out this profile and leaderboard!</p>
                 </div>

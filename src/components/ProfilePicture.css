@@ -3,12 +3,10 @@
     width: 100%; 
     height: 50px;
     margin: 0px 0px 0px 20px;
-    /* z-index: -1; */
 }
 
 .profile-picture-background {
     display: flex;
-    /* background-color: hsla(0, 0%, 0%, 0.75); */
     width: 146px;
     height: 146px;
     border-radius: 50%;
@@ -24,14 +22,4 @@
     height: 135px;
     border-radius: 50%;
     position: relative;
-    /* border: 13px solid hsla(0, 0%, 0%, 0.071); */
-}
-
-@media (min-width: 1720px) and (max-width: 950) {
-    .profile-picture-background > img {
-        width: 135px;
-        height: 160.2px;
-        object-position: center;
-        top: 13px;
-    }
 }

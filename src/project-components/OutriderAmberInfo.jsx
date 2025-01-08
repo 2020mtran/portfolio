@@ -15,13 +15,13 @@ const OutriderAmberInfo = () => {
                     • Outrider Amber is a bot that supports Karuta by notifying server members when new cards release.
                     </p>
                 </div>
-                <div className='right-image'>
+                <div className='oa-right-image'>
                     <img src={OutriderAmberFirstPreview} alt="First three screenshots of my app"/>
                     <p>Note the bot in action at the bottom!</p>
                 </div>
             </div>
             <div className='info-display'>
-                <div className='right-image'>
+                <div className='oa-right-image'>
                     <img src={OutriderAmberSecondPreview} alt="Next three screenshots of my app"/>
                     <p>A user accessing the commands menu to obtain or remove a role.</p>
                 </div>
