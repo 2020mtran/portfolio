@@ -1,12 +1,12 @@
 import React from 'react';
 import './Projects.css';
-import OutriderAmber from "../assets/OutriderAmber.jpg";
-import BlitzBot from "../assets/BlitzBotIcon.jpg";
-import MentalMe from "../assets/MentalMeIcon.jpg";
-import CombinationProjects from "../assets/CombinationProjects.png";
+import OutriderAmber from "../assets/OutriderAmberIcon.webp";
+import BlitzBot from "../assets/BlitzBotIcon.webp";
+import MentalMe from "../assets/MentalMeIcon.webp";
+import CombinationProjects from "../assets/CombinationProjects.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
 import expoGoIcon from '../assets/expo-go-app.svg';

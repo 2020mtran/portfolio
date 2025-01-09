@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import "./FrontEndDevInfo.css";
-import FrontEndDevFirstPreview from "../assets/FrontEndDevFirstPreview.png";
-import FrontEndDevSecondPreview from "../assets/FrontEndDevSecondPreview.png";
-import FrontEndDevThirdPreview from "../assets/FrontEndDevThirdPreview.png";
+import FrontEndDevFirstPreview from "../assets/FrontEndDevFirstPreview.webp";
+import FrontEndDevSecondPreview from "../assets/FrontEndDevSecondPreview.webp";
+import FrontEndDevThirdPreview from "../assets/FrontEndDevThirdPreview.webp";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUpRightFromSquare, faCircleLeft, faCircleRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';

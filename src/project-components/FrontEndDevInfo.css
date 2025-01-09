@@ -7,8 +7,6 @@
     margin-left: 10px;
 }
 
-/* add shadow to images later */
-
 .fed-image-container {
     display: flex;
 }
@@ -27,7 +25,6 @@
     position: absolute;
     height: auto;
     top: 50%;
-    /* left: 4%; */
     width: 40px;
 }
 

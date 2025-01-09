@@ -1,12 +1,7 @@
 import React from 'react';
 import "./FrontEndDevHeader.css";
-import FrontEndDev from '../assets/CombinationProjects.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faCss3Alt, faHtml5, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
-import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
-import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
-import expoGoIcon from '../assets/expo-go-app.svg';
+import { faCss3Alt, faHtml5 } from '@fortawesome/free-brands-svg-icons';
 import { faCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 

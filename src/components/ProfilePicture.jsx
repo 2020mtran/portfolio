@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileImage from "../assets/me.jpg";
+import ProfileImage from "../assets/me.webp";
 import "./ProfilePicture.css";
 
 const ProfilePicture = () => {
@@ -7,6 +7,7 @@ const ProfilePicture = () => {
         <div className="profile-picture">
             <div className="profile-picture-background">
                 <img src={ProfileImage} alt="Profile Picture"></img>
+                <span className='online-icon'></span>
             </div>
         </div>
     )

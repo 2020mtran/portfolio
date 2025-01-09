@@ -1,8 +1,8 @@
 import React from 'react';
 import "./MentalMeInfo.css";
-import MentalMeFirstPreview from "../assets/MentalMeFirstPreview.png";
-import MentalMeSecondPreview from "../assets/MentalMeSecondPreview.png";
-import MentalMeThirdPreview from "../assets/MentalMeThirdPreview.png";
+import MentalMeFirstPreview from "../assets/MentalMeFirstPreview.webp";
+import MentalMeSecondPreview from "../assets/MentalMeSecondPreview.webp";
+import MentalMeThirdPreview from "../assets/MentalMeThirdPreview.webp";
 
 const MentalMeInfo = () => {
     return (
@@ -21,7 +21,7 @@ const MentalMeInfo = () => {
                 </div>
             </div>
             <div className='info-display'>
-                <div className='right-image'>
+                <div className='left-image'>
                     <img src={MentalMeSecondPreview} alt="Next three screenshots of my app"/>
                     <p>Journal Menu, Creating Journal, Progress Tracker</p>
                 </div>
