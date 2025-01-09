@@ -1,6 +1,6 @@
 import React from 'react';
 import "./OutriderAmberHeader.css";
-import OutriderAmber from '../assets/OutriderAmber.jpg';
+import OutriderAmber from '../assets/OutriderAmberIcon.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faPython, faAws } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';

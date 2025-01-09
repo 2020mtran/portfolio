@@ -1,10 +1,8 @@
 import React from 'react';
 import "./MentalMeHeader.css";
-import MentalMe from '../assets/MentalMeIcon.jpg';
+import MentalMe from '../assets/MentalMeIcon.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact, faJs, faCss3Alt, faHtml5, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faTerminal, faDownload } from '@fortawesome/free-solid-svg-icons';
-import mongodbIcon from '../assets/mongodb-svgrepo-com.svg';
 import firebaseIcon from '../assets/firebase-svgrepo-com.svg';
 import expoGoIcon from '../assets/expo-go-app.svg';
 

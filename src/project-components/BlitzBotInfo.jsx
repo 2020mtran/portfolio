@@ -1,7 +1,7 @@
 import React from 'react';
 import "./BlitzBotInfo.css";
-import BlitzBotFirstPreview from "../assets/BlitzBotFirstPreview.png";
-import BlitzBotSecondPreview from "../assets/BlitzBotSecondPreview.png";
+import BlitzBotFirstPreview from "../assets/BlitzBotFirstPreview.webp";
+import BlitzBotSecondPreview from "../assets/BlitzBotSecondPreview.webp";
 
 const BlitzBotInfo = () => {
     return (

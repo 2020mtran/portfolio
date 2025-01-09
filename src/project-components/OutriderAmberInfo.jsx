@@ -1,8 +1,8 @@
 import React from 'react';
 import "./OutriderAmberInfo.css";
-import OutriderAmberFirstPreview from "../assets/OutriderAmberFirstPreview.png";
-import OutriderAmberSecondPreview from "../assets/OutriderAmberSecondPreview.png";
-import OutriderAmberThirdPreview from "../assets/OutriderAmberThirdPreview.png";
+import OutriderAmberFirstPreview from "../assets/OutriderAmberFirstPreview.webp";
+import OutriderAmberSecondPreview from "../assets/OutriderAmberSecondPreview.webp";
+import OutriderAmberThirdPreview from "../assets/OutriderAmberThirdPreview.webp";
 
 const OutriderAmberInfo = () => {
     return (

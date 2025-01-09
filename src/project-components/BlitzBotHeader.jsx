@@ -1,6 +1,6 @@
 import React from 'react';
 import "./BlitzBotHeader.css";
-import BlitzBot from '../assets/BlitzBotIcon.jpg';
+import BlitzBot from '../assets/BlitzBotIcon.webp';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faPython } from '@fortawesome/free-brands-svg-icons';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
