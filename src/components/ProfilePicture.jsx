@@ -12,12 +12,12 @@ const ProfilePicture = () => {
                 <img src={ProfileImage} alt="Profile Picture"></img>
                 <span className='online-icon'></span>
             </div>
-            <Link to="./pages/ContactMePage" className='contact-me-container'>
-                <button className='contact-me-button'>
+            <div className='contact-me-container'>
+                <Link to="./pages/ContactMePage" className='contact-me-button'>
                     <FontAwesomeIcon icon={faEnvelope} className='contact-me-icon'></FontAwesomeIcon>
-                    <p>Contact Me!</p>
-                </button>
-            </Link>
+                    <p className='contact-me-text'>Contact Me!</p>
+                </Link>
+            </div>
         </div>
     )
 }

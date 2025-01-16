@@ -55,6 +55,7 @@
     top: 50%;
     left: 100%;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .contact-me-icon {
@@ -64,4 +65,8 @@
 
 .contact-me-button:hover {
     transform: scale(1.01);
+}
+
+.contact-me-button:visited {
+    color: inherit;
 }
