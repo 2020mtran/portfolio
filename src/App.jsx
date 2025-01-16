@@ -7,6 +7,7 @@ import ProjectMentalMe from './pages/ProjectMentalMe'
 import ProjectFrontEndDev from './pages/ProjectFrontEndDev.jsx';
 import ProjectOutriderAmber from './pages/ProjectOutriderAmber.jsx';
 import ProjectBlitzBot from './pages/ProjectBlitzBot.jsx';
+import ContactMePage from './pages/ContactMePage.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Background>
       <MainContainer>
           <Routes>
+            <Route path="/pages/ContactMePage" element={<ContactMePage />} />
             <Route path="/" element={<Homepage />} />
             <Route path="/pages/ProjectMentalMe" element={<ProjectMentalMe />} />
             <Route path="/pages/ProjectFrontEndDev" element={<ProjectFrontEndDev />} />

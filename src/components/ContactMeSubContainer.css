@@ -1,0 +1,38 @@
+.cm-sub-container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    background-image: linear-gradient(to bottom, #1d3d6480, #d4c6aa85);
+    width: 42rem;
+    margin: 0 auto;
+    height: 600px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.cm-back-icon-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 20px;
+    right: 20px;
+    height: 1px;
+}
+
+.cm-back-icon {
+    width: 45px;
+    height: 45px;
+}
+
+.cm-back-icon-container:visited {
+    color: inherit;
+}
+
+@media (min-width: 1420px) {
+    .cm-sub-container {
+        width: 100%;
+        height: 100%;
+    }
+}
