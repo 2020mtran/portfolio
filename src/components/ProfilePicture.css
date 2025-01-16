@@ -35,3 +35,33 @@
     border-radius: 50px;
     border: 0.5rem solid hsla(0, 0%, 0%, 0.75);
 }
+
+.contact-me-container {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    width: 76%;
+    height: 10%;
+}
+
+.contact-me-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    padding: 10px;
+    background-color: #1d3d64;
+    top: 50%;
+    left: 100%;
+    border-radius: 5px;
+}
+
+.contact-me-icon {
+    width: 20px;
+    height: auto;
+}
+
+.contact-me-button:hover {
+    transform: scale(1.01);
+}

@@ -4,16 +4,30 @@
     margin: 0px 0px 10px 0px;
 }
 
-::-webkit-scrollbar {
+.info-sub-container::-webkit-scrollbar {
     background: transparent;
     width: 7px;
 }
 
-::-webkit-scrollbar-thumb {
+.info-sub-container::-webkit-scrollbar-thumb {
     background: transparent;
     border-radius: 10px;
   }
 
-:hover::-webkit-scrollbar-thumb {
+.info-sub-container:hover::-webkit-scrollbar-thumb {
     background: hsla(0, 0%, 0%, 0.5);
+}
+
+@media (min-width: 1720px) and (max-height: 949px) {
+    .info-sub-container::-webkit-scrollbar {
+        background: transparent;
+        width: 7px;
+    }
+}
+
+@media (min-width: 1720px) and (min-height: 950px) {
+    .info-sub-container::-webkit-scrollbar {
+        background: transparent;
+        width: 7px;
+    }
 }

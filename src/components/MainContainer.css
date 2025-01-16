@@ -8,14 +8,14 @@
     border-radius: 10px;
 }
 
-@media (min-width: 1720px) and (max-height: 960px) {
+@media (min-width: 1720px) and (max-height: 949px) {
     .main-container {
         width: 43.8%;
         height: 79.44%;
     }
 }
 
-@media (min-width: 1720px) and (min-height: 961px) {
+@media (min-width: 1720px) and (min-height: 950px) {
     .main-container {
         width: 46.8%;
         height: 79.44%;
