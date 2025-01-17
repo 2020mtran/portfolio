@@ -58,6 +58,11 @@
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.25);
 }
 
+.left-image > p {
+    font-size: 10px;
+    line-height: 0px;
+}
+
 .right-image {
     width: 390px;
     height: 260px;

@@ -14,11 +14,13 @@
 
 .back-icon-container {
     display: flex;
-    justify-content: flex-end;
-    position: relative;
+    position: absolute;
     top: 20px;
     right: 20px;
-    height: 1px;
+    height: auto;
+    width: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .back-icon {
@@ -28,6 +30,10 @@
 
 .back-icon-container:visited {
     color: inherit;
+}
+
+.back-icon-container:hover {
+    transform: scale(1.03);
 }
 
 @media (min-width: 1420px) {
