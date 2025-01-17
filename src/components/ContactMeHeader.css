@@ -58,23 +58,3 @@
 .project-page-header-role > p {
     font-size: 16px;
 }
-
-.cm-back-icon-container {
-    display: flex;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    height: auto;
-    width: auto;
-    align-items: center;
-    justify-content: center;
-}
-
-.cm-back-icon {
-    width: 45px;
-    height: 45px;
-}
-
-.cm-back-icon-container:visited {
-    color: inherit;
-}
