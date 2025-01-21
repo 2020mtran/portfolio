@@ -108,3 +108,75 @@
         font-size: 18px;
     }
 }
+
+@media (max-width: 380px) and (max-height: 800px) {
+    .cm-form > label {
+        font-size: 20px;
+    }
+    .regular-input {
+        height: 29px;
+    }
+    .message-input {
+        min-height: 75px;
+        max-height: 300px;
+    }
+    .button-area {
+        height: 20px;
+    }
+    .submit-btn {
+        width: 15%;
+        height: 30px;
+    }
+    .confirmation {
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-height: 812px) {
+    .cm-form > label {
+        font-size: 20px;
+    }
+    .regular-input {
+        height: 29px;
+    }
+    .message-input {
+        min-height: 75px;
+        max-height: 300px;
+    }
+    .button-area {
+        height: 20px;
+    }
+    .submit-btn {
+        width: 15%;
+        height: 30px;
+    }
+    .confirmation {
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 450px) and (min-height: 700px) and (max-height: 950px) {
+    .cm-form > label {
+        font-size: 15px;
+    }
+    .regular-input {
+        height: 24px;
+    }
+    .message-input {
+        min-height: 50px;
+        max-height: 250px;
+    }
+    .button-area {
+        height: 20px;
+    }
+    .submit-btn {
+        width: 15%;
+        height: 30px;
+    }
+    .confirmation {
+        font-weight: bold;
+        font-size: 16px;
+    }
+}
