@@ -26,23 +26,23 @@ const MentalMeHeader = () => {
                         <FontAwesomeIcon icon={faReact} style={{color: "#086fac",}} className="react-icon"/>
                         <p>React</p>
                     </div>
-                    <div className="role1">
+                    <div className="mm-role">
                         <FontAwesomeIcon icon={faJs} style={{color: "#FFD43B",}} className="react-icon"/>
                         <p>JavaScript</p>
                     </div>
-                    <div className="role1">
+                    <div className="mm-role">
                         <FontAwesomeIcon icon={faCss3Alt} style={{color: "#086fac",}} className="react-icon"/>
                         <p>CSS</p>
                     </div>
-                    <div className="role1">
+                    <div className="mm-role">
                         <FontAwesomeIcon icon={faHtml5} style={{color: "#FFD43B",}} className="react-icon"/>
                         <p>HTML</p>
                     </div>
-                    <div className="role1">
+                    <div className="mm-role">
                         <img src={expoGoIcon} alt="ExpoGo Icon" className="react-icon" />
                         <p>Expo Go</p>
                     </div>
-                    <div className="role1">
+                    <div className="mm-role">
                         <img src={firebaseIcon} alt="MongoDB Icon" className="react-icon" />
                         <p>Firebase</p>
                     </div>
