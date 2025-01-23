@@ -45,6 +45,16 @@
     line-height: 0;
 }
 
+.mm-role {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    padding: 0px 10px 0px 10px;
+    border: thin solid rgba(255, 255, 255, 0.508);
+    border-radius: 5px;
+}
+
 .project-description {
     margin-block-start: 0.5em;
     font-size: 16px;
@@ -76,6 +86,7 @@
         width: 100px;
         border-radius: 10px;
         box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.25);
+        align-self: center;
     }
     .mm-project-page-header-info {
         line-height: 2px;

@@ -21,15 +21,15 @@ const BlitzBotHeader = () => {
                     </a>
                 </p>
                 <div className="roles-list">
-                    <div className="project-role">
+                    <div className="bb-project-page-header-role">
                         <FontAwesomeIcon icon={faPython} style={{color: "#086fac",}} className="react-icon"/>
                         <p>Python</p>
                     </div>
-                    <div className="project-role">
+                    <div className="bb-project-page-header-role">
                         <FontAwesomeIcon icon={faDownload} style={{color: "#FFD43B",}} className="react-icon"/>
                         <p>Discord & Riot Games API</p>
                     </div>
-                    <div className="project-role">
+                    <div className="bb-project-page-header-role">
                         <img src={mongodbIcon} alt="MongoDB Icon" className="react-icon" />
                         <p>mongoDB</p>
                     </div>
